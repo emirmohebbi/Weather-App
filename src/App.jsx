@@ -1,12 +1,11 @@
-
+import WeatherApp from "./components/WeatherApp.jsx";
 
 function App() {
-
   return (
     <>
-      <h1>hello</h1>
+      <WeatherApp />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
