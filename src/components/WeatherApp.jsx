@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
-import styles from "./WeatherApp.module.css";
 import { fetchData } from "../services/api";
-import WatherHeader from "./watherHeader";
+import WeatherHeader from "./WeatherHeader";
+import WeatherDetails from './WeatherDetails'
+
+import styles from "./WeatherApp.module.css";
 
 function WeatherApp() {
   const [weather, setWeather] = useState("");
@@ -22,8 +24,8 @@ function WeatherApp() {
 
   return (
     <div className={styles.container}>
-      <WatherHeader weather={weather} />
-      {/* <header>{!!Object.keys(weather).length && weather.data.location.name}</header>  */}
+      <WeatherHeader weather={weather} />
+      <WeatherDetails weather={weather} />
     </div>
   );
 }

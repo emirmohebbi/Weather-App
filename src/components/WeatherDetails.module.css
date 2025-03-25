@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 280px;
+    width: 400px;
+}
+
+.container > div {
+    height: 100px;
+    width: 80px;
+    background-color: #efca23;
+}
