@@ -23,6 +23,7 @@
 .logo {
   width: 100px;
   height: 100px;
+  margin-bottom: 20px;
 }
 .logo img {
   width: 100%;
@@ -33,4 +34,5 @@
   font-size: 18px;
   position: absolute;
   bottom: 0;
+  white-space: nowrap;
 }

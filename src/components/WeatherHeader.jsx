@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./WeatherHeader.module.css";
 
 function WatherHeader({ weather }) {
-  console.log()
   return (
     <div className={styles.container}>
       <div className={styles.location}>
